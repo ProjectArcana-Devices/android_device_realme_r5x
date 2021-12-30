@@ -98,3 +98,6 @@ ro.lmk.log_stats=true
 
 # Fingerprint
 fingerprint.nocleanup=true
+
+# Blur on app-launch
+ro.launcher.blur.appLaunch=0
