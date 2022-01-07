@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common Elixir stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Inherit from r5x device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -28,6 +28,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := r5x
@@ -50,9 +51,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 BUILD_FINGERPRINT := "google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys"
 
 # Maintainer
-Elixir_MAINTAINER := Om(Takumi)
-IS_PHONE := true
-CUSTOM_BUILD_TYPE := OFFICIAL
-TARGET_INCLUDE_LIVE_WALLPAPERS= false
-TARGET_INCLUDE_STOCK_ACORE := false
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
+ARCANA_DEVICE := r5x
+ARCANA_MAINTAINER := Om_Patel
+
