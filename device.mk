@@ -684,3 +684,7 @@ PRODUCT_USES_QCOM_HARDWARE := true
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/realme/r5x/r5x-vendor.mk)
+
+# RealmeDirac
+$(call inherit-product, packages/apps/RealmeDirac/dirac.mk)
+
