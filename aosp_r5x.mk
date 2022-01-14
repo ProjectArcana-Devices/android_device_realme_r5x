@@ -53,4 +53,4 @@ BUILD_FINGERPRINT := "google/raven/raven:12/SD1A.210817.036/7805805:user/release
 # Maintainer
 ARCANA_DEVICE := r5x
 ARCANA_MAINTAINER := Om_Patel
-
+ARCANA_OFFICIAL := true
