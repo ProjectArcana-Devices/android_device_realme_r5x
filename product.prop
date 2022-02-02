@@ -6,7 +6,7 @@ ro.sf.blurs_are_expensive=1
 ro.sys.fw.dex2oat_thread_count=8
 
 # LMKD
-ro.config.low_ram=false
+ro.config.low_ram=true
 ro.lmk.log_stats=true
 
 # Kill Logspams
